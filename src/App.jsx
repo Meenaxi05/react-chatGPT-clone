@@ -4,7 +4,7 @@ import "./index.css";
 
 const configuration = new Configuration({
   organization: "org-Ddnw43Lfm9ZNRS3nmTfWbpUX",
-  apiKey: "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",
+  apiKey: "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",
 });
 
 delete configuration.baseOptions.headers["User-Agent"];
@@ -48,7 +48,7 @@ function App() {
         setIsTyping(false); //typing text disappers from our screen
         scrollTo(0, 1e10);
 
-        console.log(result);
+        // console.log(result);
       })
       .catch((err) => console.log(err));
   };
