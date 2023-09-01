@@ -4,7 +4,7 @@ import "./index.css";
 
 const configuration = new Configuration({
   organization: "org-Ddnw43Lfm9ZNRS3nmTfWbpUX",
-  apiKey: "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",
+  apiKey: "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",
 });
 
 delete configuration.baseOptions.headers["User-Agent"];
@@ -71,7 +71,7 @@ function App() {
 
       <div className={isTyping ? "" : "hide"}>
         <p className="pb-5">
-          <i>Typing..</i>
+          <i>generating</i>
         </p>
       </div>
 
